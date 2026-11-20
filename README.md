@@ -1,4 +1,4 @@
-# dsh-prompt-optimizer
+# dsh-skill-prompt-optimizer
 
 A [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) skill that turns a rough one-liner into a prompt a model can actually follow — delivered as **one copyable code block**, nothing else.
 
@@ -14,7 +14,7 @@ A [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) skill that
 ## Install
 
 ```sh
-dsh plugin add dsh-prompt-optimizer
+dsh plugin add dsh-skill-prompt-optimizer
 ```
 
 装完在技能目录里会出现 `prompt-optimizer`。新会话直接说「提示词优化一下这段 …」，或显式加载该技能。
@@ -44,7 +44,7 @@ dsh plugin add dsh-prompt-optimizer
 ## Uninstall
 
 ```sh
-dsh plugin remove dsh-prompt-optimizer
+dsh plugin remove dsh-skill-prompt-optimizer
 ```
 
 ## License
