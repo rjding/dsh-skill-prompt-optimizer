@@ -1,14 +1,14 @@
 {
-  "name": "dsh-prompt-optimizer",
+  "name": "dsh-skill-prompt-optimizer",
   "version": "0.1.0",
   "description": "DSH skill: turn a rough one-liner into a model-ready prompt, delivered as one copyable code block.",
   "type": "module",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rjding/dsh-prompt-optimizer.git"
+    "url": "git+https://github.com/rjding/dsh-skill-prompt-optimizer.git"
   },
-  "homepage": "https://github.com/rjding/dsh-prompt-optimizer#readme",
+  "homepage": "https://github.com/rjding/dsh-skill-prompt-optimizer#readme",
   "keywords": [
     "dsh",
     "deepseek-harness",
