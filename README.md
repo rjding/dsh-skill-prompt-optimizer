@@ -17,6 +17,13 @@ A [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) skill that
 dsh plugin add dsh-skill-prompt-optimizer
 ```
 
+如果 npm 那边还没上线，直接从仓库装：
+
+```sh
+git clone https://github.com/rjding/dsh-skill-prompt-optimizer.git
+dsh plugin add ./dsh-skill-prompt-optimizer
+```
+
 装完在技能目录里会出现 `prompt-optimizer`。新会话直接说「提示词优化一下这段 …」，或显式加载该技能。
 
 ## Usage
