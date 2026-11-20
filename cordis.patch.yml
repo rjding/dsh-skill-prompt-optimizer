@@ -1,0 +1,15 @@
+# Registers this package's `skills/` directory as an extra local skill root, so the
+# bundled `prompt-optimizer` skill joins every agent's merged catalog.
+#
+# Mirrors how the shipped presets mount their own local discovery: a dedicated
+# `dsh-skill-filesystem` provider whose only root is the package's `skills/` dir.
+# `includeDefaultRoots: false` keeps this provider from re-registering the project
+# and user roots that other rows already own.
+- insert:
+    - id: skill-prompt-optimizer
+      name: '@deepseek-ai/dsh-skill-filesystem'
+      config:
+        providerName: prompt-optimizer
+        includeDefaultRoots: false
+        customSkillDirs:
+          - !!js process.getBuiltinModule('node:path').join(process.getBuiltinModule('node:path').dirname(process.getBuiltinModule('node:module').createRequire(baseUrl).resolve('dsh-prompt-optimizer/package.json')), 'skills')
