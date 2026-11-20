@@ -12,4 +12,4 @@
         providerName: prompt-optimizer
         includeDefaultRoots: false
         customSkillDirs:
-          - !!js process.getBuiltinModule('node:path').join(process.getBuiltinModule('node:path').dirname(process.getBuiltinModule('node:module').createRequire(baseUrl).resolve('dsh-prompt-optimizer/package.json')), 'skills')
+          - !!js process.getBuiltinModule('node:path').join(process.getBuiltinModule('node:path').dirname(process.getBuiltinModule('node:module').createRequire(baseUrl).resolve('dsh-skill-prompt-optimizer/package.json')), 'skills')
